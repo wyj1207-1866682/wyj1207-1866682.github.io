@@ -29,10 +29,20 @@
 	<h1>Video and Audio File using HTML5 tags</h1>
 		<button onclick="playPause()">Play/Pause</button>
 		<br><br>
-		<video width="560" height="315" controls>
+	<video width="560" height="315" controls>
 		<source src="https://www.appsloveworld.com/wp-content/uploads/2018/10/640.mp4" type="video/mp4">
 		<source src="perfectman.ogg" type="video/ogg">
 	</video>
+		
+	<script>
+	var myVideo = document.getElementById("perfectman");
+	function playPause() {
+		if (myVideo.paused)
+			myVideo.play();
+		else
+			myVideo.pause();
+		}
+	</script>
 	</div>
 		
 </body>
