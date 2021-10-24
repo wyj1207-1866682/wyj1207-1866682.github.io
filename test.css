@@ -73,7 +73,6 @@ a{
     text-align: center;
     padding: 15px;
     background-color: #8E41D5; 
-
 }
 
 #Footer{
@@ -101,7 +100,7 @@ img:hover {
     box-shadow: 0 0 2px 1px rgba(28, 0, 186, 0.5);
   }
 
-  img {
+img {
     clip-path: circle(40%);
     -ms-transform: rotate(20deg); /* IE 9 */
     transform: rotate(20deg);
